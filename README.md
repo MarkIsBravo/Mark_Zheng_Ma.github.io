@@ -3,9 +3,9 @@
 ### Screenshots
 
 ![Image of title page]
-(https://github.com/MarkIsBravo/Mark_Zheng_Ma.github.io/blob/master/readMe/titlepage.png?raw=true)
+(https://github.com/MarkIsBravo/Mark_Zheng_Ma.github.io/blob/master/readMe/titlepage.png)
 ![Image of about page]
-(https://github.com/MarkIsBravo/Mark_Zheng_Ma.github.io/blob/master/readMe/aboutpage.png?raw=true)
+(https://github.com/MarkIsBravo/Mark_Zheng_Ma.github.io/blob/master/readMe/aboutpage.png)
 
 ### Technologies Used
 
