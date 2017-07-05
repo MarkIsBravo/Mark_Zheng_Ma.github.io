@@ -1,55 +1,55 @@
-#Mark Zheng Ma
+# Mark Zheng Ma
 
-###Screenshots
+### Screenshots
 
 ![Image of title page]
-(/Mark_Zheng_Ma.github.io/readMe/titlepage.png)
+(/Users/markzhengma/wdi/Mark_Zheng_Ma.github.io/readMe/titlepage.png)
 ![Image of about page]
-(/Mark_Zheng_Ma.github.io/readMe/aboutpage.png)
+(/Users/markzhengma/wdi/Mark_Zheng_Ma.github.io/readMe/aboutpage.png)
 
-###Technologies Used
+### Technologies Used
 
-*HTML5
-*CSS3
+* HTML5
+* CSS3
 
-###Sample Code
+### Sample Code
 
->html{
+> html{
 >  background:url("pics/background.jpg");
 >  background-size:cover;
 >  background-repeat:no-repeat;
 >  background-attachment:fixed;
 >  padding:0px;
 >  font-family: 'Noto Sans', sans-serif;
->}
->header{
+> }
+> header{
 >  height:40px;
 >  padding:40px 20px;
 >  position:fixed;
 >  width:100%;
 >  background:rgba(0,0,0,0.7);
->}
->h1{
+> }
+> h1{
 >  display:inline-block;
 >  color:white;
 >  padding:20px 0;
->}
->nav{
+> }
+> nav{
 >  display:inline-block;
 >  float:right;
 >  padding:20px;
->}
->nav a{
+> }
+> nav a{
 >  padding:20px;
 >  color:white;
->}
+> }
 
-###Problems/Future Improvements
+### Problems/Future Improvements
 
-*I would add more animations to the "about" and "work" sections
+* I would add more animations to the "about" and "work" sections
  when I scroll to it.
-*I would add a "scroll to certain height" event to the navigator.
+* I would add a "scroll to certain height" event to the navigator.
 
-###Author
+### Author
 
 Mark Zheng Ma
