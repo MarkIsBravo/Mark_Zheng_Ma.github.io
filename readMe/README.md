@@ -1,13 +1,21 @@
-#Mark Zheng Ma
-###Screenshots
+# Mark Zheng Ma
 
+### Screenshots
 
-###Technologies Used
-*HTML5
-*CSS3
+![Image of title page]
+(./titlepage.png)
+![Image of about page]
+(./aboutpage.png)
 
-###Sample Code
-`html{
+### Technologies Used
+
+* HTML5
+* CSS3
+
+### Sample Code
+
+````CSS3
+html{
   background:url("pics/background.jpg");
   background-size:cover;
   background-repeat:no-repeat;
@@ -35,12 +43,15 @@ nav{
 nav a{
   padding:20px;
   color:white;
-}`
+}
+````
 
-###Problems/Future Improvements
-*I would add more animations to the "about" and "work" sections
+### Problems/Future Improvements
+
+* I would add more animations to the "about" and "work" sections
  when I scroll to it.
-*I would add a "scroll to certain height" event to the navigator.
+* I would add a "scroll to certain height" event to the navigator.
 
-###Author
+### Author
+
 Mark Zheng Ma
