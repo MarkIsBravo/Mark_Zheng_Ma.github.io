@@ -3,9 +3,9 @@
 ###Screenshots
 
 ![Image of title page]
-(/readMe/titlepage.png)
+(/Mark_Zheng_Ma.github.io/readMe/titlepage.png)
 ![Image of about page]
-(/readMe/aboutpage.png)
+(/Mark_Zheng_Ma.github.io/readMe/aboutpage.png)
 
 ###Technologies Used
 
@@ -14,35 +14,35 @@
 
 ###Sample Code
 
-`html{
-  background:url("pics/background.jpg");
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  padding:0px;
-  font-family: 'Noto Sans', sans-serif;
-}
-header{
-  height:40px;
-  padding:40px 20px;
-  position:fixed;
-  width:100%;
-  background:rgba(0,0,0,0.7);
-}
-h1{
-  display:inline-block;
-  color:white;
-  padding:20px 0;
-}
-nav{
-  display:inline-block;
-  float:right;
-  padding:20px;
-}
-nav a{
-  padding:20px;
-  color:white;
-}`
+>html{
+>  background:url("pics/background.jpg");
+>  background-size:cover;
+>  background-repeat:no-repeat;
+>  background-attachment:fixed;
+>  padding:0px;
+>  font-family: 'Noto Sans', sans-serif;
+>}
+>header{
+>  height:40px;
+>  padding:40px 20px;
+>  position:fixed;
+>  width:100%;
+>  background:rgba(0,0,0,0.7);
+>}
+>h1{
+>  display:inline-block;
+>  color:white;
+>  padding:20px 0;
+>}
+>nav{
+>  display:inline-block;
+>  float:right;
+>  padding:20px;
+>}
+>nav a{
+>  padding:20px;
+>  color:white;
+>}
 
 ###Problems/Future Improvements
 
