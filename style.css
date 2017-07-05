@@ -1,0 +1,108 @@
+html{
+  background:url("https://lh5.googleusercontent.com/-JrGLmPJA3oQ/VQ_QCy7a-WI/AAAAAAAAAw8/QHZwwyEF76w/w1064-h709-no/Espresso_WhiteDesk.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:fixed top left;
+  background-attachment:fixed;
+  padding:0px;
+  font-family: 'Noto Sans', sans-serif;
+}
+header{
+  height:40px;
+  padding:40px 20px;
+  position:fixed;
+  width:100%;
+  background:rgba(0,0,0,0.7);
+}
+h1{
+  display:inline-block;
+  color:white;
+  padding:20px 0;
+}
+nav{
+  display:inline-block;
+  float:right;
+  padding:20px;
+}
+nav a{
+  padding:20px;
+  color:white;
+}
+.home{
+  margin:0;
+  height:450px;
+  background-color:rgba(0,0,0,0.3);
+  background-position:fixed;
+  padding:180px 50px;
+  color:white;
+}
+.home img{
+  height:200px;
+  border:10px solid rgba(0,0,0,0.5);
+  border-radius:50px;
+}
+.home main{
+  text-align:center;
+  padding:50px;
+  font-size:30px;
+}
+.home h2{
+  font-size:50px;
+}
+.about{
+  margin:20px 0;
+  padding:40px 20px;
+  background:rgba(0,0,0,0.3);
+  height:650px;
+  color:white;
+}
+.about img{
+  height:100px;
+  background-size:cover;
+  float:left;
+  margin:0 15px 0 0;
+  display:inline-block;
+}
+.about div{
+  margin:15px 20px;
+  height:100px;
+  width:0 auto;
+  display: block;
+}
+.p2 p{
+  text-align:right;
+  margin:15px 20px;
+  height:100px;
+}
+.p2 img{
+  float:right;
+  margin: 0 0 0 15px;
+}
+.p4 p{
+  text-align:right;
+  margin:15px 20px;
+  height:100px;
+}
+.p4 img{
+  float:right;
+  margin: 0 0 0 15px;
+}
+.work{
+  margin:20px 0;
+  padding:20px;
+  background:rgba(0,0,0,0.3);
+  height:650px;
+  color:white;
+}
+.contact{
+  margin:300px 0 300px 0;
+  padding:20px;
+  background:rgba(0,0,0,0.3);
+  color:white;
+  text-align:center;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
