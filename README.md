@@ -1,15 +1,19 @@
 #Mark Zheng Ma
+
 ###Screenshots
+
 ![Image of title page]
-(readMe/titlepage.png)
+(/readMe/titlepage.png)
 ![Image of about page]
-(readMe/aboutpage.png)
+(/readMe/aboutpage.png)
 
 ###Technologies Used
+
 *HTML5
 *CSS3
 
 ###Sample Code
+
 `html{
   background:url("pics/background.jpg");
   background-size:cover;
@@ -41,9 +45,11 @@ nav a{
 }`
 
 ###Problems/Future Improvements
+
 *I would add more animations to the "about" and "work" sections
  when I scroll to it.
 *I would add a "scroll to certain height" event to the navigator.
 
 ###Author
+
 Mark Zheng Ma
