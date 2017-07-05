@@ -1,9 +1,6 @@
 #Mark Zheng Ma
 ###Screenshots
-![Image of title page]
-(readMe/titlepage.png)
-![Image of about page]
-(readMe/aboutpage.png)
+
 
 ###Technologies Used
 *HTML5
