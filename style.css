@@ -1,5 +1,5 @@
 html{
-  background:url("https://lh5.googleusercontent.com/-JrGLmPJA3oQ/VQ_QCy7a-WI/AAAAAAAAAw8/QHZwwyEF76w/w1064-h709-no/Espresso_WhiteDesk.jpg");
+  background:url("pics/background.jpg");
   background-size:cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
@@ -29,7 +29,7 @@ nav a{
 }
 .home{
   margin:0;
-  height:450px;
+  height:500px;
   background-color:rgba(0,0,0,0.3);
   background-position:fixed;
   padding:180px 50px;
