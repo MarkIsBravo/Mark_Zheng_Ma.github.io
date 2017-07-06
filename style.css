@@ -11,7 +11,7 @@ header{
   padding:40px 20px;
   position:fixed;
   width:100%;
-  background:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.7);
 }
 h1{
   display:inline-block;
@@ -24,15 +24,23 @@ nav{
   padding:20px;
 }
 nav a{
-  padding:20px;
+  text-decoration:none;
+  padding:25px;
   color:white;
+  font-size:18px;
+}
+.navs:hover{
+  background-color:transparent;
+}
+.fa{
+  padding:0 8px;
 }
 .home{
   margin:0;
   height:500px;
   background-color:rgba(0,0,0,0.3);
   background-position:fixed;
-  padding:180px 50px;
+  padding:200px 50px;
   color:white;
 }
 .home img{
@@ -105,3 +113,4 @@ nav a{
     display: table;
     clear: both;
 }
+
