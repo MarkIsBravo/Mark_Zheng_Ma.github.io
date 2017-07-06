@@ -8,6 +8,7 @@ html{
 }
 header:hover{
   background-color:rgba(0,0,0,0.3);
+  transition:0.5s;
 }
 
 header{
@@ -16,6 +17,7 @@ header{
   position:fixed;
   width:100%;
   background-color:rgba(0,0,0,0.7);
+  transition:0.5s;
 }
 h1{
   display:inline-block;
@@ -29,12 +31,13 @@ nav{
 }
 nav a{
   text-decoration:none;
-  padding:60px 25px 35px 25px;
+  padding:60px 30px 35px 20px;
   color:white;
   font-size:18px;
+  transition:0.5s;
 }
 .navs:hover{
-  background:rgba(0,0,0,0.4);
+  background:rgba(0,0,0,0.6);
 }
 .fa{
   padding:0 8px;
