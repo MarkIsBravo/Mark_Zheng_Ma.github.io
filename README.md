@@ -2,8 +2,8 @@
 
 ### Screenshots
 
-![Image of title page](./titlepage.png)
-![Image of about page](./aboutpage.png)
+![Image of title page](./readMe/titlepage.png)
+![Image of about page](./readMe/aboutpage.png)
 
 ### Technologies Used
 
