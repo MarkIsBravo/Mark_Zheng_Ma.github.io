@@ -3,9 +3,9 @@
 ### Screenshots
 
 ![Image of title page]
-(/Users/markzhengma/wdi/Mark_Zheng_Ma.github.io/readMe/titlepage.png)
+(./Users/markzhengma/wdi/Mark_Zheng_Ma.github.io/readMe/titlepage.png)
 ![Image of about page]
-(/Users/markzhengma/wdi/Mark_Zheng_Ma.github.io/readMe/aboutpage.png)
+(./Users/markzhengma/wdi/Mark_Zheng_Ma.github.io/readMe/aboutpage.png)
 
 ### Technologies Used
 
