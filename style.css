@@ -81,14 +81,16 @@ nav li{
   display:inline-block;
 }
 .about div{
-  margin:15px 20px;
+  margin:30px 20px;
   height:100px;
   width:0 auto;
   display: block;
 }
-.p2 p{
+.p1{
+  background:black;
+}
+.p2{
   text-align:right;
-  margin:15px 20px;
   height:100px;
 }
 .p2 img{
@@ -97,7 +99,6 @@ nav li{
 }
 .p4 p{
   text-align:right;
-  margin:15px 20px;
   height:100px;
 }
 .p4 img{
