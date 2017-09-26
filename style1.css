@@ -1,0 +1,252 @@
+html{
+    background:url("pics/background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    padding:0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    height:12vh;
+    min-height:90px;
+    /* padding:40px 20px; */
+    position:fixed;
+    width:100%;
+    background-color:rgba(0,0,0,0.7);
+    transition:0.5s;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header:hover{
+    background-color:rgba(0,0,0,0.3);
+    transition:0.5s;
+}
+.logo{
+    margin: 1vw;
+}
+h1{
+    display:inline-block;
+    color:white;
+}
+.navigation{
+    width: 50vw;
+    height: 12vh;
+    min-height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    flex-wrap: wrap;
+}
+.navigation li{
+    text-decoration:none;
+    height:5vh;
+    min-height: 40px;
+    padding:5px 0 0 0;
+    width: 110px;
+    color:white;
+    font-size:18px;
+    transition:0.5s;
+    display:inline-block;
+    cursor:pointer;
+}
+.navs:hover{
+    background:rgba(0,0,0,0.6);
+}
+.fa{
+    padding:0 8px;
+}
+.home{
+    height: 100vh;
+    min-height: 525px;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position:fixed;
+    color:white;
+}
+.home img{
+    height:30vh;
+    min-height: 160px;
+    border:5px solid rgba(0,0,0,0.5);
+    border-radius:10px;
+}
+.home main{
+    text-align:center;
+    padding:50px;
+    font-size:30px;
+}
+.home h2{
+    font-size:50px;
+}
+.spacer{
+    height: 14vh;
+    min-height: 100px;
+}
+.about{
+    /* height:105vh; */
+    min-height: 820px;
+    margin:20px 0;
+    padding:20px;
+    background:rgba(0,0,0,0.3);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragraph-list{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paragraphs{
+    display:flex;
+    margin:1vh 2vw;
+    height: 15vw;
+    min-height: 125px;
+    width: 80vw;
+    max-width: 960px;
+    padding: 2vh 0;
+    /* border-bottom: 2px solid white; */
+    overflow: hidden;
+    cursor: pointer;
+}
+.paragraphs:hover{
+    /* background:rgba(0,0,0,0.3); */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+}
+.selection{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));    
+}
+.image{
+    height: 15vw;
+    min-height: 125px;
+    max-height: 130px;
+    width: 20vw;
+    min-width: 160px;
+    max-width: 240px;
+    background-size: cover;
+    background-position: center;
+}
+.img-1{
+    background-image: url('pics/beijing.jpg');
+}
+.img-2{
+    background-image: url('pics/su.jpg');
+}
+.img-3{
+    background-image: url('pics/manhattan.jpg');
+}
+.img-4{
+    background-image: url('pics/classroom.jpg');
+}
+.about h2{
+    margin: 5px;
+}
+.paragraph-single{
+    width: 0vw;
+}
+.scroll{
+    display: flex;
+    width: 80vw;
+    max-width: 960px;
+    height:0vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s ease;
+    border-bottom: 2px solid white; 
+}
+.scroll p{
+    width: 70vw;
+}
+.paragraph-title{
+    width: 60vw;
+    max-width: 720px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-show{
+    height:40vh;
+    /* transition: height 1s ease; */
+}
+.work{
+    background:rgba(0,0,0,0.3);
+    color:white;
+}
+.project-list{
+    width:80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.project{
+    height: 200px;
+    width: 200px;
+    margin: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px dashed black;
+}
+.project-pic{
+    height: 140px;
+    width: 180px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.project-button-list{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+.project-button{
+    height: 30px;
+    width: 80px;
+    background-color: grey;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.project-button a{
+    text-decoration: none;
+    color: white;
+}
+.project-pic-1{
+    background-image: url('pics/poke-fight.png');
+}
+.project-pic-1 .tech-used{
+    height: 140px;
+    width: 180px;
+    background:rgba(0,0,0,0.5);
+    color: white;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    visibility: hidden;
+}
+.project-pic-1 .tech-used :hover{
+    visibility: visible;
+}
+.project-pic-2{
+    background-image: url('pics/grandmaster.png');
+}
