@@ -3,7 +3,6 @@ html{
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    padding:0px;
     font-family: 'Noto Sans', sans-serif;
 }
 header{
@@ -31,7 +30,7 @@ h1{
     color:white;
 }
 .navigation{
-    width: 50vw;
+    /* width: 80vw; */
     height: 12vh;
     min-height: 90px;
     display: flex;
@@ -42,14 +41,15 @@ h1{
 }
 .navigation li{
     text-decoration:none;
-    height:5vh;
+    /* height:5vh; */
     min-height: 40px;
-    padding:5px 0 0 0;
-    width: 110px;
+    width: 90px;
     color:white;
     font-size:18px;
     transition:0.5s;
-    display:inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     cursor:pointer;
 }
 .navs:hover{
@@ -66,7 +66,6 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-position:fixed;
     color:white;
 }
 .home img{
@@ -90,8 +89,8 @@ h1{
 .about{
     /* height:105vh; */
     min-height: 820px;
-    margin:20px 0;
-    padding:20px;
+    margin:20px 0 0 0;
+    padding:20px 20px 80px 20px;
     background:rgba(0,0,0,0.3);
     color:white;
     display: flex;
@@ -99,7 +98,7 @@ h1{
     justify-content: center;
 }
 .paragraph-list{
-    width:100vw;
+    width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,73 +179,103 @@ h1{
 .work{
     background:rgba(0,0,0,0.3);
     color:white;
+    margin:20px 0;
 }
 .project-list{
     width:80vw;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    justify-content: center;
+    margin: 20px auto;
 }
 .project{
-    height: 200px;
-    width: 200px;
-    margin: 3vw;
+    height: 260px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    border: 2px dashed black;
+    /* border-top: 2px solid white; */
+    margin: 2px;
+}
+.project-name{
+    background: rgba(0,0,0,0.7);
+    height: 30px;
+    width: 360px;
 }
 .project-pic{
-    height: 140px;
-    width: 180px;
+    height: 200px;
+    width: 360px;
     background-position: center;
     background-size: cover;
     cursor: pointer;
 }
 .project-button-list{
     display: flex;
-    justify-content: space-around;
-    width: 180px;
+    flex-direction: row;
+    width: 360px;
+    background: rgba(0,0,0,0.3);
+    transition: 0.5s;
 }
 .project-button{
     height: 30px;
-    width: 80px;
-    background-color: grey;
+    width: 180px;
+    /* background-color: grey; */
     font-size: 12px;
     text-align: center;
     cursor: pointer;
-    border: 1px solid black;
-    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
+    transition: 0.5s;
+}
+.project-button:hover{
+    background: rgba(0,0,0,0.6);
 }
 .project-button a{
     text-decoration: none;
     color: white;
+    width: 100%;
 }
 .project-pic-1{
     background-image: url('pics/poke-fight.png');
 }
-.project-pic-1 .tech-used{
-    height: 140px;
-    width: 180px;
+.project-pic-2{
+    background-image: url('pics/grandmaster.png');
+}
+.project-pic-3{
+    background-image: url('pics/language-studio.png');
+}
+.project-pic-4{
+    background-image: url('pics/word-hero.png');
+}
+.tech-used{
+    height: 200px;
+    width: 360px;
     background:rgba(0,0,0,0.5);
     color: white;
-    font-size: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
-    visibility: hidden;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
-.project-pic-1 .tech-used :hover{
-    visibility: visible;
+.show-tech{
+    opacity: 1;
 }
-.project-pic-2{
-    background-image: url('pics/grandmaster.png');
+.contact{
+    position: fixed;
+    width: 100%;
+    color:white;
+    background-color:rgba(0,0,0,0.7);
+    bottom: 0;
+}
+.contact-list{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
