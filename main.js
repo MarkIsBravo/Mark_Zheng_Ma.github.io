@@ -42,6 +42,19 @@ window.onload = function(){
       }
     });
 
+    let $skillSingle = $('.skill-single');
+    let $skillName = $('.skill-name');
+
+    $skillSingle.click(function(){
+      let $this = $(this);
+      $this.toggleClass('skillbackground-show');
+    })
+
+    $skillName.click(function(){
+      let $this = $(this);
+      $this.toggleClass('skillname-show');
+    })
+
 
 
 

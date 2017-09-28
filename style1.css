@@ -12,7 +12,7 @@ header{
     position:fixed;
     width:100%;
     background-color:rgba(0,0,0,0.7);
-    transition:0.5s;
+    transition: background-color 0.5s;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,30 +20,29 @@ header{
 }
 header:hover{
     background-color:rgba(0,0,0,0.3);
-    transition:0.5s;
 }
 .logo{
     margin: 1vw;
+    display: none;
 }
 h1{
     display:inline-block;
     color:white;
 }
 .navigation{
-    /* width: 80vw; */
+    width: 100vw;
     height: 12vh;
     min-height: 90px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    float: right;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
-.navigation li{
+.navs{
     text-decoration:none;
     /* height:5vh; */
     min-height: 40px;
-    width: 90px;
+    width: 25vw;
     color:white;
     font-size:18px;
     transition:0.5s;
@@ -56,7 +55,7 @@ h1{
     background:rgba(0,0,0,0.6);
 }
 .fa{
-    padding:0 8px;
+    padding:-1px 8px;
 }
 .home{
     height: 100vh;
@@ -69,8 +68,7 @@ h1{
     color:white;
 }
 .home img{
-    height:30vh;
-    min-height: 160px;
+    height: 215px;
     border:5px solid rgba(0,0,0,0.5);
     border-radius:10px;
 }
@@ -90,12 +88,15 @@ h1{
     /* height:105vh; */
     min-height: 820px;
     margin:20px 0 0 0;
-    padding:20px 20px 80px 20px;
+    padding:20px;
     background:rgba(0,0,0,0.3);
     color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.about h2{
+    text-align: center;
 }
 .paragraph-list{
     width:100%;
@@ -105,7 +106,7 @@ h1{
 }
 .paragraphs{
     display:flex;
-    margin:1vh 2vw;
+    margin:0 2vw;
     height: 15vw;
     min-height: 125px;
     width: 80vw;
@@ -147,6 +148,10 @@ h1{
 .about h2{
     margin: 5px;
 }
+#p1{
+    border-top: 2px solid white;
+    margin: 2vh;
+}
 .paragraph-single{
     width: 0vw;
 }
@@ -174,12 +179,91 @@ h1{
 }
 .scroll-show{
     height:40vh;
-    /* transition: height 1s ease; */
+    overflow: scroll;
+}
+#p4 .paragraph-single{
+    display: flex;
+    flex-wrap: wrap;
+}
+.scroll-p4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 80px 0;
+}
+.skill-single{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-single:hover{
+    background-size: 0%;
+}
+.skillbackground-show{
+    background-size: 0%;
+}
+.skill-html{
+    background-image: url("pics/html.png");
+}
+.skill-css{
+    background-image: url("pics/css.png");
+    background-size: 70%;
+}
+.skill-js{
+    background-image: url("pics/js.png");
+}
+.skill-react{
+    background-image: url("pics/react.png");
+}
+.skill-node{
+    background-image: url("pics/node.png");
+}
+.skill-express{
+    background-image: url("pics/express.png");
+    background-size: 190%;
+}
+.skill-sql{
+    background-image: url("pics/sql.png");
+    background-size: 190%;
+}
+.skill-ruby{
+    background-image: url("pics/ruby.png");
+    background-size: 90%;
+}
+.skill-socket{
+    background-image: url("pics/socket.png");
+}
+.skill-name{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 0px;
+}
+.skill-name:hover{
+    background: rgba(0,0,0,0.3);
+    font-size: 15px;
+}
+.skillname-show{
+    background: rgba(0,0,0,0.3);
+    font-size: 15px;
 }
 .work{
     background:rgba(0,0,0,0.3);
     color:white;
-    margin:20px 0;
+    padding:20px 0;
+    margin: 20px 0;
+}
+.work h2{
+    text-align: center;
 }
 .project-list{
     width:80vw;
@@ -196,12 +280,13 @@ h1{
     align-items: center;
     justify-content: space-between;
     /* border-top: 2px solid white; */
-    margin: 2px;
+    margin: 1px;
 }
 .project-name{
     background: rgba(0,0,0,0.7);
     height: 30px;
     width: 360px;
+    text-align: center;
 }
 .project-pic{
     height: 200px;
@@ -266,16 +351,50 @@ h1{
 .show-tech{
     opacity: 1;
 }
-.contact{
+.undone-project{
+    border: 2px solid white;
+    display: none;
+}
+
+.info{
     position: fixed;
-    width: 100%;
+    width: 100vw;
     color:white;
     background-color:rgba(0,0,0,0.7);
     bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.contact-list{
+.info-title{
+    width: 80vw;
+    text-align: center;
+}
+.info-list{
     width: 80vw;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-single{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+.info-single a{
+    color: white;
+    font-size: 30px;
+}
+.info-single:hover{
+    animation: translateY 0.5s forwards;
+}
+@keyframes translateY{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-7px);
+    }
+    100%{
+        transform: translateY(-5px)
+    }
 }
