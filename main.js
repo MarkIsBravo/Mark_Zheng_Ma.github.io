@@ -13,9 +13,9 @@ window.onload = function(){
     $workBtn.click(function(){
       $('html,body').animate({'scrollTop': $('.work-spacer').offset().top}, 600);
     });
-    // $contactBtn.click(function(){
-    //   $('html,body').animate({'scrollTop': $('html,body').scrollTop() + 2500});
-    // });
+    $contactBtn.click(function(){
+      $('html,body').animate({'scrollTop': $('.contact-spacer').offset().top}, 600);
+    });
 
     let $paragraph = $('.paragraphs');
     let $scroll = $('.scroll');
