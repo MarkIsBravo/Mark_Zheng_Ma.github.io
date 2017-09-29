@@ -16,7 +16,7 @@ html{
 }
 header{
     height:6vh;
-    min-height:45px;
+    min-height:50px;
     /* padding:40px 20px; */
     position:fixed;
     width:100%;
@@ -41,7 +41,7 @@ h1{
 .navigation{
     width: 100vw;
     height: 6vh;
-    min-height: 90px;
+    min-height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,10 +50,10 @@ h1{
 .navs{
     text-decoration:none;
     /* height:5vh; */
-    min-height: 40px;
+    /* min-height: 40px; */
     width: 25vw;
     color:white;
-    font-size:40px;
+    font-size:15px;
     transition:0.5s;
     display:flex;
     align-items: center;
@@ -75,22 +75,20 @@ h1{
     justify-content: center;
     align-items: center;
     color:white;
-}
-.home img{
-    height: 400px;
-    border:2px solid rgba(0,0,0,0.5);
-}
-.home{
     text-align:center;
     padding:50px;
-    font-size:50px;
+    font-size:25px;
+}
+.home img{
+    height: 200px;
+    border:2px solid rgba(0,0,0,0.5);
 }
 .home h2{
-    font-size: 90px;
+    font-size: 45px;
 }
 .spacer{
-    height: 14vh;
-    min-height: 100px;
+    height: 7vh;
+    min-height: 50px;
 }
 .work{
     background:rgba(0,0,0,0.3);
@@ -100,8 +98,8 @@ h1{
 }
 .work h2{
     text-align: center;
-    font-size: 50px;
-    margin: 0 0 4vh 0;
+    font-size: 25px;
+    margin: 0 0 2vh 0;
 }
 .project-list{
     width:80vw;
@@ -111,25 +109,26 @@ h1{
     margin: 20px auto;
 }
 .project{
-    height: 520px;
-    width: 720px;
+    height: 260px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     /* border-top: 2px solid white; */
     margin: 1px;
+    box-sizing: border-box;
 }
 .project-name{
     background: rgba(0,0,0,0.7);
-    height: 60px;
-    width: 720px;
+    height: 30px;
+    width: 300px;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
 .project-pic{
-    height: 400px;
-    width: 720px;
+    height: 200px;
+    width: 300px;
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -137,15 +136,15 @@ h1{
 .project-button-list{
     display: flex;
     flex-direction: row;
-    width: 720px;
+    width: 300px;
     background: rgba(0,0,0,0.3);
     transition: 0.5s;
 }
 .project-button{
-    height: 60px;
-    width: 360px;
+    height: 30px;
+    width: 150px;
     /* background-color: grey; */
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
     cursor: pointer;
     display: flex;
@@ -174,15 +173,15 @@ h1{
     background-image: url('pics/word-hero.png');
 }
 .tech-used{
-    height: 400px;
-    width: 720px;
+    height: 200px;
+    width: 300px;
     background:rgba(0,0,0,0.5);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 15px;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -254,10 +253,11 @@ h1{
 }
 .about h2{
     margin: 5px;
+    font-size: 25px;
 }
 #p1{
     border-top: 2px solid white;
-    margin: 4vh 0 0 0;
+    margin: 2vh 0 0 0;
 }
 .paragraph-single{
     width: 0vw;
@@ -275,7 +275,7 @@ h1{
 }
 .scroll p{
     width: 70vw;
-    font-size: 25px;
+    font-size: 15px;
 }
 .paragraph-title{
     width: 60vw;
@@ -298,8 +298,8 @@ h1{
     margin: 0 0 80px 0;
 }
 .skill-single{
-    height: 140px;
-    width: 140px;
+    height: 70px;
+    width: 70px;
     margin: 5px;
     background-size: auto 100%;
     background-position: center;
@@ -343,8 +343,8 @@ h1{
     background-image: url("pics/socket.png");
 }
 .skill-name{
-    height: 140px;
-    width: 140px;
+    height: 70px;
+    width: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -357,7 +357,7 @@ h1{
 } */
 .skillname-show{
     background: rgba(0,0,0,0.3);
-    font-size: 30px;
+    font-size: 15px;
 }
 .contact{
     height: 100vh;
@@ -367,7 +367,7 @@ h1{
 }
 .contact h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
 }
 .contact-form{
     width: 100%;
@@ -383,22 +383,22 @@ h1{
     align-items: center;
 }
 .contact-form input{
-    height: 60px;
-    width: 500px;
-    font-size: 40px;
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
 }
 .contact-form textarea{
-    width: 510px;
-    height: 500px;
-    margin: 50px 0;
-    font-size: 40px;
+    width: 255px;
+    height: 250px;
+    margin: 25px 0;
+    font-size: 20px;
 }
 .contact-form button{
-    width: 500px;
-    height: 60px;
+    width: 250px;
+    height: 30px;
     background-color: rgba(0,0,0,0.6);
     color: white;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 
@@ -415,7 +415,7 @@ h1{
 .info-title{
     width: 80vw;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
 .info-list{
     width: 80vw;
@@ -423,19 +423,19 @@ h1{
     justify-content: center;
 }
 .info-single{
-    height: 80px;
-    width: 80px;
-    margin: 20px;
+    height: 30px;
+    width: 30px;
+    margin: 15px;
 }
 .info-single a{
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 .envelope i{
-    font-size: 52px;
+    font-size: 26px;
 }
 .info-single:hover{
     animation: translateY 0.5s forwards;
@@ -451,7 +451,7 @@ h1{
         transform: translateY(-5px)
     }
 }
-@media (min-width: 550px){
+@media (min-width: 480px){
     header{
         height:12vh;
         min-height:90px;
@@ -459,58 +459,20 @@ h1{
     .logo{
         display: inline;
     }
-    .navigator{
-        width: 80vw;
+    .navigation{
+        height: 12vh;
+        min-height: 90px;
     }
     .navs{
         width: 20vw;
         font-size: 20px;
     }
-    .home{
-        font-size: 25px;
+    .spacer{
+        height: 14vh;
+        min-height: 100px;
     }
     .home img{
         height: 280px;
-    }
-    .home h2{
-        font-size: 45px;
-    }
-    .about{
-        margin: 20px 0 0 0;
-    }
-    .about h2{
-        font-size: 25px;
-    }
-    #p1{
-        margin: 2vh 0 0 0;
-    }
-    .scroll p{
-        font-size: 12px;
-    }
-    .skill-single{
-        height: 70px;
-        width: 70px;
-    }
-    .skill-single:hover{
-        background-size: 0%;
-    }
-    .skill-name{
-        height: 70px;
-        width: 70px;
-    }
-    .skillname-show{
-        font-size: 15px;
-    }
-    .skill-name:hover{
-        background: rgba(0,0,0,0.3);
-        font-size: 15px;
-    }
-    .work{
-        margin: 20px 0 0 0;
-    }
-    .work h2{
-        font-size: 25px;
-        margin: 0 0 2vh 0;
     }
     .project{
         height: 260px;
@@ -541,26 +503,11 @@ h1{
     .undone-project{
         display: flex;
     }
-    .contact{
-        margin: 20px 0 0 0;
+    .skill-single:hover{
+        background-size: auto 0%;
     }
-    .contact h2{
-        font-size: 25px;
-    }
-    .contact-form input{
-        height: 30px;
-        width: 250px;
-        font-size: 20px;
-    }
-    .contact-form textarea{
-        width: 255px;
-        height: 250px;
-        margin: 25px;
-        font-size: 20px;
-    }
-    .contact-form button{
-        width: 250px;
-        height: 30px;
+    .skill-name:hover{
+        background: rgba(0,0,0,0.3);
         font-size: 15px;
     }
 
