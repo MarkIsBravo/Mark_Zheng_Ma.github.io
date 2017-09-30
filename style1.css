@@ -70,10 +70,10 @@ h1{
     height: 100vh;
     min-height: 525px;
     background-image: url('pics/trans_sketch.png');
-    background-position: 70% 100%;
+    background-position: 70% 45%;
     background-size: auto 80%;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #F9F7E8;
     align-items: center;
     text-align:center;
     /* padding:50px; */
@@ -85,7 +85,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: left;
-    top: 25vh;
+    top: 15vh;
     left: 10vw;
     position: absolute;
 }
@@ -97,7 +97,7 @@ h1{
     min-height: 50px;
 }
 .work{
-    background:rgba(0,0,0,0.3);
+    background:#F9F7E8;
     color:white;
     padding:20px 0;
     /* margin: 40px 0 0 0; */
@@ -106,6 +106,7 @@ h1{
     text-align: center;
     font-size: 25px;
     margin: 0 0 2vh 0;
+    color: black;
 }
 .project-list{
     width:80vw;
@@ -195,13 +196,12 @@ h1{
     opacity: 1;
 }
 .undone-project{
-    border: 2px solid white;
+    border: 2px solid grey;
     display: none;
 }
 .about{
     /* height:105vh; */
-    min-height: 820px;
-    margin:40px 0 0 0;
+    /* min-height: 820px; */
     padding:20px;
     background:rgba(0,0,0,0.3);
     color:white;
@@ -211,7 +211,8 @@ h1{
 }
 .about h2{
     text-align: center;
-    font-size: 50px;
+    margin: 5px;
+    font-size: 25px;
 }
 .paragraph-list{
     width:100%;
@@ -242,9 +243,7 @@ h1{
 }
 .image{
     height: 95px;
-    width: 20vw;
-    min-width: 160px;
-    max-width: 240px;
+    width: 150px;
     background-size: cover;
     background-position: center bottom;
 }
@@ -259,10 +258,6 @@ h1{
 }
 .img-4{
     background-image: url('pics/classroom.jpg');
-}
-.about h2{
-    margin: 5px;
-    font-size: 25px;
 }
 #p1{
     border-top: 2px solid white;
@@ -371,7 +366,6 @@ h1{
 .contact{
     height: 100vh;
     background:rgba(0,0,0,0.3);
-    margin: 40px 0 0 0;
     color: white;
 }
 .contact h2{
@@ -471,9 +465,10 @@ h1{
     .navigation{
         height: 12vh;
         min-height: 90px;
+        width: 60vw;
     }
     .navs{
-        width: 20vw;
+        width: 15vw;
         font-size: 20px;
     }
     .home{
@@ -517,12 +512,26 @@ h1{
     .undone-project{
         display: flex;
     }
+    .image{
+        width: 20vw;
+        min-width: 160px;
+        max-width: 240px;
+    }
     .skill-single:hover{
         background-size: auto 0%;
     }
     .skill-name:hover{
         background: rgba(0,0,0,0.3);
         font-size: 15px;
+    }
+    .contact-form input{
+        width: 50vw;
+    }
+    .contact-form textarea{
+        width: 51vw;
+    }
+    .contact-form button{
+        width: 52vw;
     }
 
     .info{
