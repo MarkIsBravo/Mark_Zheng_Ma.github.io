@@ -2,8 +2,7 @@
 
 ### Screenshots
 
-![Image of title page](./readMe/titlepage.png)
-![Image of about page](./readMe/aboutpage.png)
+![Image of home page](./readMe/personal_website.png)
 
 ### Technologies Used
 
