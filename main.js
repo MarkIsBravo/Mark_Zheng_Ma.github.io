@@ -55,15 +55,38 @@ window.onload = function(){
         if($(window).width() < 1200){
           $this.toggleClass('skillbackground-show');
         }
-    })
+    });
 
     $skillName.click(function(){
         let $this = $(this);
         if($(window).width() < 1200){
           $this.toggleClass('skillname-show');
         }
-    })
+    });
 
+    let $resume = $('.resume');
+    let $resumebtn = $('.resume-btn');
+    let $closebtn = $('.close-btn');
+
+    $resumebtn.click(function(){
+      if(!$resume.hasClass('resume-show')){
+        $resume.addClass('resume-show');
+        $closebtn.addClass('btn-show');
+      }else{
+        $resume.removeClass('resume-show');
+        $closebtn.removeClass('btn-show');
+      }
+    });
+
+    $closebtn.click(function(){
+      if(!$resume.hasClass('resume-show')){
+        $resume.addClass('resume-show');
+        $closebtn.addClass('btn-show');
+      }else{
+        $resume.removeClass('resume-show');
+        $closebtn.removeClass('btn-show');
+      }
+    });
 
 
 

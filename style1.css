@@ -66,6 +66,50 @@ h1{
 .fa{
     padding:-1px 8px;
 }
+.resume{
+    width: 100vw;
+    height: 0vh;
+    max-height: 800px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    overflow: scroll;
+    z-index: +1;
+    top: 12vh;
+    transition: height 0.5s;
+    /* display: none; */
+}
+.close-btn{
+    height: 27px;
+    width: 70px;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 15vh;
+    left: 10vw;
+    background-color: rgba(0,0,0,0.2);
+    transition: background-color 0.5s;
+    cursor: pointer;
+    display: none;
+}
+.btn-show{
+    display: inline;
+}
+.close-btn:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+.resume-content{
+    height: auto;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.resume-show{
+    /* display: inline; */
+    height: 70vh;
+}
 .home{
     height: 100vh;
     min-height: 525px;
@@ -427,8 +471,27 @@ h1{
 }
 .info-title{
     width: 80vw;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 20px;
+}
+.resume-btn{
+    font-size: 13px;
+    /* font-family: arial; */
+    height: 27px;
+    width: 70px;
+    margin: 0 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.3);
+    -webkit-transition: background 0.5s, color 0.5s;
+    cursor: pointer;
+}
+.resume-btn:hover{
+    background: rgba(255,255,255,1);
+    color: rgba(0,0,0,0.7);
 }
 .info-list{
     width: 80vw;
@@ -464,6 +527,7 @@ h1{
         transform: translateY(-5px)
     }
 }
+
 @media (min-width: 480px){
     header{
         height:12vh;
@@ -482,6 +546,12 @@ h1{
         width: 20vw;
         max-width: 200px;
         font-size: 20px;
+    }
+    .resume{
+        top: 20vh;
+    }
+    .close-btn{
+        top: 25vh
     }
     .home{
         background-position: center;
@@ -558,10 +628,10 @@ h1{
     }
     .info-title{
         font-size: 20px;
-        width: 40vw;
+        width: 50vw;
     }
     .info-list{
-        width: 60vw;
+        width: 50vw;
     }
     .info-single{
         height: 30px;
@@ -572,6 +642,15 @@ h1{
     }
     .envelope i{
         font-size: 26px;
+    }
+}
+
+@media (min-width: 900px){
+    .resume-content{
+        width: 70%;
+    }
+    .close-btn{
+        left: 20vw;
     }
 }
 
