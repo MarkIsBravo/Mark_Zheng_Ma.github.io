@@ -145,7 +145,7 @@ h1{
     flex-direction: row;
     width: 300px;
     background: rgba(0,0,0,0.3);
-    transition: 0.5s;
+    transition: background-color 0.5s;
 }
 .project-button{
     height: 30px;
@@ -203,7 +203,7 @@ h1{
     /* height:105vh; */
     /* min-height: 820px; */
     padding:20px;
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.1);
     color:white;
     display: flex;
     flex-direction: column;
@@ -222,6 +222,7 @@ h1{
 }
 .paragraphs{
     display:flex;
+    justify-content: flex-end;
     margin:0 2vw;
     height: 90px;
     width: 80vw;
@@ -232,7 +233,22 @@ h1{
     cursor: pointer;
 }
 .paragraph-title{
+    width: 60vw;
+    max-width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 40px;
+    opacity: 1;
+    -webkit-transition: width 0.5s, opacity 0.5s 0.5s;
+}
+.paragraph-single{
+    width: 0vw;
+    opacity: 0;
+    -webkit-transition: width 0.5s, opacity 0s 0s;
+}
+.paragraph-single p{
+    margin: 0 10px;
 }
 .paragraphs:hover{
     /* background:rgba(0,0,0,0.3); */
@@ -263,9 +279,6 @@ h1{
     border-top: 2px solid white;
     margin: 2vh 0 0 0;
 }
-.paragraph-single{
-    width: 0vw;
-}
 .scroll{
     display: flex;
     width: 80vw;
@@ -280,13 +293,6 @@ h1{
 .scroll p{
     width: 70vw;
     font-size: 15px;
-}
-.paragraph-title{
-    width: 60vw;
-    max-width: 720px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .scroll-show{
     height:40vh;
@@ -365,7 +371,7 @@ h1{
 }
 .contact{
     height: 100vh;
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.1);
     color: white;
 }
 .contact h2{
@@ -402,8 +408,12 @@ h1{
     background-color: rgba(0,0,0,0.6);
     color: white;
     font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
-
+.contact-form button:hover{
+    background-color: rgba(0,0,0,0.3);
+}
 
 .info{
     position: fixed;
@@ -465,10 +475,12 @@ h1{
     .navigation{
         height: 12vh;
         min-height: 90px;
-        width: 60vw;
+        width: 80vw;
+        max-width: 800px;
     }
     .navs{
-        width: 15vw;
+        width: 20vw;
+        max-width: 200px;
         font-size: 20px;
     }
     .home{
@@ -509,8 +521,15 @@ h1{
         width: 360px;
         font-size: 15px;
     }
-    .undone-project{
-        display: flex;
+    .title-hide{
+        width: 0;
+        opacity: 0;
+        -webkit-transition: width 0.5s, opacity 0s 0s;
+    }
+    .paragraph-show{
+        width: 60vw;
+        opacity: 1;
+        -webkit-transition: width 0.5s, opacity 0.5s 0.5s;
     }
     .image{
         width: 20vw;
@@ -553,5 +572,11 @@ h1{
     }
     .envelope i{
         font-size: 26px;
+    }
+}
+
+@media (min-width: 1357px){
+    .undone-project{
+        display: flex;
     }
 }
