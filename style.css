@@ -123,15 +123,52 @@ h1{
     /* padding:50px; */
     font-size:25px;
 }
+.home-box{
+    top: 15vh;
+    left: 10vw;
+    position: absolute;
+    height: 70vh;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .word-box{
-    height: 130px;
+    height: 200px;
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: left;
-    top: 15vh;
+    justify-content: center;
+    /* top: 15vh;
     left: 10vw;
-    position: absolute;
+    position: absolute; */
+}
+#latest-project{
+    height: 30vh;
+    width: 30vh;
+    min-width: 150px;
+    min-height: 156px;
+}
+#latest-name{
+    height: 5vh;
+    width: 30vh;
+    min-width: 150px;
+    min-height: 30px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+}
+#latest-pic{
+    height: 20vh;
+    width: 30vh;
+    min-width: 150px;
+    min-height: 96px;
+}
+#latest-tech{
+    height: 20vh;
+    width: 30vh;
+    min-width: 150px;
+    min-height: 96px;
 }
 .home h2{
     font-size: 45px;
@@ -212,15 +249,18 @@ h1{
     width: 100%;
 }
 .project-pic-1{
-    background-image: url('pics/poke-fight.png');
+    background-image: url('pics/ar-pet.png');
 }
 .project-pic-2{
     background-image: url('pics/grandmaster.png');
 }
 .project-pic-3{
-    background-image: url('pics/language-studio.png');
+    background-image: url('pics/poke-fight.png');
 }
 .project-pic-4{
+    background-image: url('pics/language-studio.png');
+}
+.project-pic-5{
     background-image: url('pics/word-hero.png');
 }
 .tech-used{
@@ -241,7 +281,6 @@ h1{
 }
 .undone-project{
     border: 2px solid grey;
-    display: none;
 }
 .about{
     /* height:105vh; */

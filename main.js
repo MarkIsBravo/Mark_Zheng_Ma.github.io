@@ -42,9 +42,21 @@ window.onload = function(){
     $projectPic.hover(function(){
         let $this = $(this);
         let index = $projectPic.index($this);
-        if($techUsed.hasClass(`tech-${index+1}`)){
-            $(`.tech-${index+1}`).toggleClass('show-tech');
+        if($techUsed.hasClass(`tech-${index}`)){
+            $(`.tech-${index}`).toggleClass('show-tech');
         }
+    });
+
+    let $latestPic = $('#latest-pic');
+    let $latestTech = $('#latest-tech');
+
+    $latestPic.hover(function(){
+        let $this = $(this);
+        $latestTech.toggleClass('show-tech');
+    });
+
+    $latestPic.click(function(){
+        $('html,body').animate({'scrollTop': $('.work-spacer').offset().top}, 600);
     });
 
     let $skillSingle = $('.skill-single');
