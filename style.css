@@ -412,6 +412,9 @@ h1{
     display: flex;
     flex-wrap: wrap;
 }
+/* .single-p4{
+    height: 10vh;
+} */
 .scroll-p4{
     display: flex;
     flex-wrap: wrap;
@@ -461,6 +464,15 @@ h1{
 }
 .skill-socket{
     background-image: url("pics/socket.png");
+}
+.skill-java{
+    background-image: url("pics/java.png");
+}
+.skill-csharp{
+    background-image: url("pics/csharp.png");
+}
+.skill-unity{
+    background-image: url("pics/unity.png");
 }
 .skill-name{
     height: 70px;
@@ -739,6 +751,21 @@ h1{
     }
     .close-btn{
         left: 20vw;
+    }
+}
+
+@media (min-width: 1200px){
+    #p4{
+        height: 20vh;
+        min-height: 160px;
+    }
+    #p4 .paragraph-single{
+        height: 20vh;
+        min-height: 160px;
+    }
+    .img-4{
+        height: 20vh;
+        min-height: 160px;
     }
 }
 

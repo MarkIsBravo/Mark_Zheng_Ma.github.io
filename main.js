@@ -19,6 +19,17 @@ window.onload = function(){
 
     let $paragraph = $('.paragraphs');
     let $scroll = $('.scroll');
+    let $title = $('.paragraph-title');
+    let $singleParagraph = $('.paragraph-single');
+    let windowChange = function(){
+        if($(window).width() >= 1200){
+            $scroll.removeClass('scroll-show');
+        }else{
+            $title.removeClass('title-hide');
+            $singleParagraph.removeClass('paragraph-show');
+        }
+    };
+    setInterval(windowChange, 1);
     
     $paragraph.click(function(){
         let $this = $(this);
