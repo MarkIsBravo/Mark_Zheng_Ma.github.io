@@ -79,14 +79,17 @@ window.onload = function(){
     let $resume = $('.resume');
     let $resumebtn = $('.resume-btn');
     let $closebtn = $('.close-btn');
+    let $downloadbtn = $('.download-btn');
 
     $resumebtn.click(function(){
       if(!$resume.hasClass('resume-show')){
         $resume.addClass('resume-show');
         $closebtn.addClass('btn-show');
+        $downloadbtn.addClass('btn-show');
       }else{
         $resume.removeClass('resume-show');
         $closebtn.removeClass('btn-show');
+        $downloadbtn.removeClass('btn-show');
       }
     });
 
@@ -94,9 +97,11 @@ window.onload = function(){
       if(!$resume.hasClass('resume-show')){
         $resume.addClass('resume-show');
         $closebtn.addClass('btn-show');
+        $downloadbtn.addClass('btn-show');
       }else{
         $resume.removeClass('resume-show');
         $closebtn.removeClass('btn-show');
+        $downloadbtn.removeClass('btn-show');
       }
     });
 

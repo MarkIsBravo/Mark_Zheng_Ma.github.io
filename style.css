@@ -74,7 +74,8 @@ h1{
     background-color: rgba(0,0,0,0.7);
     overflow: scroll;
     z-index: +1;
-    top: 12vh;
+    margin: -7vh 0 0 0;
+    top: 15vh;
     transition: height 0.5s;
     /* display: none; */
 }
@@ -87,28 +88,54 @@ h1{
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 15vh;
+    top: 10vh;
     left: 10vw;
     background-color: rgba(0,0,0,0.2);
     transition: background-color 0.5s;
     cursor: pointer;
     display: none;
-}
-.btn-show{
-    display: inline;
+    justify-content: center;
+    align-items: center;
 }
 .close-btn:hover{
     background-color: rgba(0,0,0,0.7);
+}
+.download-btn{
+    height: 27px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10vh;
+    left: 30vw;
+    background-color: rgba(0,0,0,0.2);
+    transition: background-color 0.5s;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.download-btn a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+.download-btn:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+.btn-show{
+    display: flex;
 }
 .resume-content{
     height: auto;
     width: 90%;
     display: block;
-    margin: 0 auto;
+    margin: 2vh auto;
 }
 .resume-show{
     /* display: inline; */
-    height: 70vh;
+    height: 80vh;
 }
 .home{
     height: 100vh;
@@ -609,7 +636,10 @@ h1{
         top: 20vh;
     }
     .close-btn{
-        top: 25vh
+        top: 20vh;
+    }
+    .download-btn{
+        top: 20vh;
     }
     .home{
         background-position: center;
