@@ -276,18 +276,21 @@ h1{
     width: 100%;
 }
 .project-pic-1{
-    background-image: url('pics/ar-pet.png');
+    background-image: url('pics/zombierun.png');
 }
 .project-pic-2{
-    background-image: url('pics/grandmaster.png');
+    background-image: url('pics/ar-pet.png');
 }
 .project-pic-3{
-    background-image: url('pics/poke-fight.png');
+    background-image: url('pics/grandmaster.png');
 }
 .project-pic-4{
-    background-image: url('pics/language-studio.png');
+    background-image: url('pics/poke-fight.png');
 }
 .project-pic-5{
+    background-image: url('pics/language-studio.png');
+}
+.project-pic-6{
     background-image: url('pics/word-hero.png');
 }
 .tech-used{
