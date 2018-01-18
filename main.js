@@ -52,9 +52,10 @@ window.onload = function(){
 
     $projectPic.hover(function(){
         let $this = $(this);
-        let index = $projectPic.index($this);
+        let index = ($projectPic.length) - $projectPic.index($this);
         if($techUsed.hasClass(`tech-${index}`)){
             $(`.tech-${index}`).toggleClass('show-tech');
+            console.log(index);
         }
     });
 
