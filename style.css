@@ -275,6 +275,23 @@ h1{
     color: white;
     width: 100%;
 }
+.project-pic-12{
+    background-image: url('pics/artutorial.png');
+}
+.project-pic-11{
+    background-image: url('pics/shell.png');
+}
+.project-pic-10{
+    background-image: url('pics/returntoolympia.png');
+}
+.project-pic-9{
+    background-image: url('pics/lifommunity.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.project-pic-8{
+    background-image: url('pics/cuevent.png');
+}
 .project-pic-7{
     background-image: url('pics/geekolympics.png');
 }
