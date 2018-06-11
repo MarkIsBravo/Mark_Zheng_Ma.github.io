@@ -285,6 +285,7 @@ h1{
     background-image: url('pics/returntoolympia.png');
 }
 .project-pic-9{
+    background-color: grey;
     background-image: url('pics/lifommunity.png');
     background-size: contain;
     background-repeat: no-repeat;
