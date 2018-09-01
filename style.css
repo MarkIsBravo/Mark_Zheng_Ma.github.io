@@ -63,8 +63,11 @@ h1{
 .navs:hover{
     background:rgba(0,0,0,0.6);
 }
-.fa{
-    padding:-1px 8px;
+.fas{
+    padding:0 8px;
+}
+.fab{
+    padding:0 8px;
 }
 .resume{
     width: 100vw;
@@ -139,25 +142,30 @@ h1{
 }
 .home{
     height: 100vh;
-    min-height: 525px;
+    min-height: 575px;
     background-image: url('pics/trans_sketch.png');
     background-position: 70% 45%;
     background-size: auto 80%;
     background-repeat: no-repeat;
     background-color: #F9F7E8;
-    align-items: center;
-    text-align:center;
+    /* align-items: center;
+    text-align:center; */
     /* padding:50px; */
     font-size:25px;
 }
+.home-box-spacer{
+    height: 15vh;
+    min-height: 95px;
+}
 .home-box{
-    top: 15vh;
-    left: 10vw;
-    position: absolute;
-    height: 70vh;
+    /* top: 15vh;
+    left: 10vw; */
+    /* position: absolute; */
+    margin-left: 10vw;
     min-height: 300px;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    align-items: left;
     justify-content: space-between;
 }
 .word-box{
@@ -174,28 +182,30 @@ h1{
 #latest-project{
     height: 30vh;
     width: 30vh;
-    min-width: 150px;
-    min-height: 156px;
+    min-width: 225px;
+    min-height: 225px;
+    margin-top: 20px;
 }
 #latest-name{
     height: 5vh;
     width: 30vh;
-    min-width: 150px;
-    min-height: 30px;
+    min-width: 225px;
+    min-height: 37px;
     background: rgba(0,0,0,0.6);
     color: white;
 }
 #latest-pic{
     height: 20vh;
     width: 30vh;
-    min-width: 150px;
-    min-height: 96px;
+    min-width: 225px;
+    min-height: 150px;
+    position: unset;
 }
 #latest-tech{
     height: 20vh;
     width: 30vh;
-    min-width: 150px;
-    min-height: 96px;
+    min-width: 225px;
+    min-height: 150px;
 }
 .home h2{
     font-size: 45px;
@@ -279,10 +289,10 @@ h1{
     width: 100%;
 }
 .project-pic-13{
-    background-image: url('pics/instabot.png');
+    background-image: url('pics/instabot.jpg');
 }
 .project-pic-12{
-    background-image: url('pics/artutorial.png');
+    background-image: url('pics/artutorial.jpg');
 }
 .project-pic-11{
     background-image: url('pics/shell.png');
@@ -297,25 +307,25 @@ h1{
     background-repeat: no-repeat;
 }
 .project-pic-8{
-    background-image: url('pics/cuevent.png');
+    background-image: url('pics/cuevent.jpg');
 }
 .project-pic-7{
-    background-image: url('pics/geekolympics.png');
+    background-image: url('pics/geekolympics.jpg');
 }
 .project-pic-6{
-    background-image: url('pics/zombierun.png');
+    background-image: url('pics/zombierun.jpg');
 }
 .project-pic-5{
-    background-image: url('pics/ar-pet.png');
+    background-image: url('pics/ar-pet.jpg');
 }
 .project-pic-4{
     background-image: url('pics/grandmaster.png');
 }
 .project-pic-3{
-    background-image: url('pics/poke-fight.png');
+    background-image: url('pics/poke-fight.jpg');
 }
 .project-pic-2{
-    background-image: url('pics/language-studio.png');
+    background-image: url('pics/language-studio.jpg');
 }
 .project-pic-1{
     background-image: url('pics/word-hero.png');
