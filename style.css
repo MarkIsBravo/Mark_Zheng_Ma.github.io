@@ -515,6 +515,9 @@ h1{
 .skill-unity{
     background-image: url("pics/unity.png");
 }
+.skill-android{
+    background-image: url("pics/androidstudio.png");
+}
 .skill-name{
     height: 70px;
     width: 70px;
