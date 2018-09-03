@@ -569,6 +569,7 @@ h1{
     width: 250px;
     font-size: 20px;
     transition: background-color 0.3s;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .contact-form input:hover{
     background-color: rgba(0,0,0,0.2);
@@ -582,6 +583,9 @@ h1{
     font-size: 20px;
     resize: none;
     transition: background-color 0.3s;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 4px;
 }
 .contact-form textarea:hover{
     background-color: rgba(0,0,0,0.2);
@@ -595,6 +599,7 @@ h1{
     font-size: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .contact-form button:hover{
     background-color: rgba(0,0,0,0.3);
