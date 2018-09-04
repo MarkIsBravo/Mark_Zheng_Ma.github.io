@@ -143,9 +143,9 @@ h1{
 .home{
     height: 100vh;
     min-height: 575px;
-    background-image: url('pics/trans_sketch.png');
-    background-position: 70% 45%;
-    background-size: auto 80%;
+    background-image: url('pics/coverpic2.png');
+    background-position: -25vw 30vh;
+    background-size: auto 60%;
     background-repeat: no-repeat;
     background-color: #F9F7E8;
     /* align-items: center;
@@ -158,14 +158,12 @@ h1{
     min-height: 95px;
 }
 .home-box{
-    /* top: 15vh;
-    left: 10vw; */
-    /* position: absolute; */
-    margin-left: 10vw;
+    margin-right: 5vw;
     min-height: 300px;
+    float: right;
     display: inline-flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-end;
     justify-content: space-between;
 }
 .word-box{
@@ -173,7 +171,7 @@ h1{
     width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-end;
     justify-content: center;
     /* top: 15vh;
     left: 10vw;
@@ -703,8 +701,8 @@ h1{
         top: 20vh;
     }
     .home{
-        background-position: center;
-        background-size: cover;
+        background-position: bottom left;
+        background-size: auto 80%;
     }
     .word-box{
         left: 20vw;
@@ -795,6 +793,47 @@ h1{
 }
 
 @media (min-width: 900px){
+    .home-box{
+        margin-right: 30vw;
+    }
+    .word-box{
+        height: 250px;
+        width: 400px;
+    }
+    .word-box h2{
+        font-size: 54px;
+    }
+    .word-box p{
+        font-size: 30px;
+    }
+    #latest-project{
+        height: 40vh;
+        width: 40vh;
+        min-width: 225px;
+        min-height: 225px;
+        margin-top: 20px;
+    }
+    #latest-name{
+        height: 5vh;
+        width: 40vh;
+        min-width: 225px;
+        min-height: 37px;
+        background: rgba(0,0,0,0.6);
+        color: white;
+    }
+    #latest-pic{
+        height: 30vh;
+        width: 40vh;
+        min-width: 225px;
+        min-height: 150px;
+        position: unset;
+    }
+    #latest-tech{
+        height: 30vh;
+        width: 40vh;
+        min-width: 225px;
+        min-height: 150px;
+    }
     .resume-content{
         width: 70%;
     }
