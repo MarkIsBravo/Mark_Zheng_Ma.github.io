@@ -583,6 +583,7 @@ h1{
     font-size: 20px;
     transition: background-color 0.3s;
     font-family: 'Cabin Sketch', cursive;
+    color: black;
 }
 .contact-form input:hover{
     background-color: rgba(0,0,0,0.2);
@@ -597,6 +598,7 @@ h1{
     resize: none;
     transition: background-color 0.3s;
     font-family: 'Cabin Sketch', cursive;
+    color: black;
     box-sizing: border-box;
     padding: 4px;
 }
