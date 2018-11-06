@@ -4,7 +4,7 @@ html{
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position: center; */
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
 }
 .background-img{
     width:100vw;
@@ -26,9 +26,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-header:hover{
-    background-color:rgba(0,0,0,0.3);
+    z-index: 999999
 }
 .logo{
     margin: 1vw;
@@ -61,7 +59,7 @@ h1{
     cursor:pointer;
 }
 .navs:hover{
-    background:rgba(0,0,0,0.6);
+    background: rgba(187, 187, 187, 0.6);
 }
 .fas{
     padding:0 8px;
@@ -142,16 +140,14 @@ h1{
 }
 .home{
     height: 100vh;
-    min-height: 575px;
-    background-image: url('pics/coverpic2.png');
-    background-position: -25vw 30vh;
-    background-size: auto 60%;
+    min-height: 660px;
+    background-image: url('pics/chalk_cover.png'), url('pics/chalkboard.jpg');
+    background-position: -25vw 20vh, top left;
+    background-size: auto 70%, 100% 100%;
     background-repeat: no-repeat;
-    background-color: #F9F7E8;
-    /* align-items: center;
-    text-align:center; */
-    /* padding:50px; */
+    background-color: rgb(31, 31, 31);
     font-size:25px;
+    color: white;
 }
 .home-box-spacer{
     height: 15vh;
@@ -168,7 +164,7 @@ h1{
 }
 .word-box{
     height: 200px;
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -178,10 +174,10 @@ h1{
     position: absolute; */
 }
 #latest-project{
-    height: 30vh;
-    width: 30vh;
-    min-width: 225px;
-    min-height: 225px;
+    height: 34vh;
+    width: 34vh;
+    min-width: 275px;
+    min-height: 275px;
     margin-top: 20px;
 }
 #latest-name{
@@ -213,16 +209,20 @@ h1{
     min-height: 50px;
 }
 .work{
-    background:#F9F7E8;
-    color:white;
     padding:20px 0;
+    background: url('pics/chalkboard.jpg');
+    background-size: 100% 100%;
+    font-size:25px;
+    color: white;
     /* margin: 40px 0 0 0; */
 }
 .work h2{
     text-align: center;
     font-size: 25px;
     margin: 0 0 2vh 0;
-    color: black;
+}
+.work i{
+    color: white;
 }
 .project-list{
     width:80vw;
@@ -232,32 +232,43 @@ h1{
     margin: 20px auto;
 }
 .project{
-    height: 260px;
-    width: 360px;
+    height: 330px;
+    width: 430px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    /* border-top: 2px solid white; */
+    justify-content: center;
+    /* border: 1px solid white; */
     margin: 1px;
     box-sizing: border-box;
+    background-image: url('pics/chalkborder.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .project-name{
-    background: rgba(0,0,0,0.7);
-    height: 30px;
+    background: rgba(0,0,0,0.3);
+    height: 50px;
     width: 300px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
 }
 .project-pic{
     height: 200px;
     width: 300px;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.7);
     cursor: pointer;
+    box-sizing: border-box;
+    /* border-left: 1px solid white;
+    border-right: 1px solid white; */
 }
 .project-button-list{
     display: flex;
@@ -265,6 +276,8 @@ h1{
     width: 300px;
     background: rgba(0,0,0,0.3);
     transition: background-color 0.5s;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
 }
 .project-button{
     height: 30px;
@@ -277,9 +290,11 @@ h1{
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
 }
 .project-button:hover{
-    background: rgba(0,0,0,0.6);
+    background: rgba(187, 187, 187, 0.6);
 }
 .project-button a{
     text-decoration: none;
@@ -401,10 +416,10 @@ h1{
 }
 .paragraphs:hover{
     /* background:rgba(0,0,0,0.3); */
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0));
 }
 .selection{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));    
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0));    
 }
 .image{
     height: 95px;
@@ -567,7 +582,7 @@ h1{
     width: 250px;
     font-size: 20px;
     transition: background-color 0.3s;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
 }
 .contact-form input:hover{
     background-color: rgba(0,0,0,0.2);
@@ -581,7 +596,7 @@ h1{
     font-size: 20px;
     resize: none;
     transition: background-color 0.3s;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     box-sizing: border-box;
     padding: 4px;
 }
@@ -597,7 +612,7 @@ h1{
     font-size: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
 }
 .contact-form button:hover{
     background-color: rgba(0,0,0,0.3);
@@ -701,8 +716,8 @@ h1{
         top: 20vh;
     }
     .home{
-        background-position: bottom left;
-        background-size: auto 80%;
+        background-position: bottom left, center;
+        background-size: auto 80%, 100% 100%;
     }
     .word-box{
         left: 20vw;
@@ -713,13 +728,13 @@ h1{
         min-height: 100px;
     }
     .project{
-        height: 260px;
-        width: 360px;
+        height: 330px;
+        width: 430px;
     }
     .project-name{
-        height: 30px;
+        height: 50px;
         width: 360px;
-        font-size: 20px;
+        font-size: 30px;
     }
     .project-pic{
         height: 200px;
@@ -807,10 +822,10 @@ h1{
         font-size: 30px;
     }
     #latest-project{
-        height: 40vh;
-        width: 40vh;
-        min-width: 225px;
-        min-height: 225px;
+        height: 47vh;
+        width: 47vh;
+        min-width: 275px;
+        min-height: 275px;
         margin-top: 20px;
     }
     #latest-name{
